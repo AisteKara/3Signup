@@ -1,4 +1,5 @@
 main {
+.container {
     display: inline-block;
     width: 800px;
     background-color: red;
@@ -8,4 +9,14 @@ main > div {
     width: 40%;
     float: left;
     background-color: blue;
+}
+.left-column {
+    width: 40%;
+    float: left;
+    background-color: blue;
+}
+.right-column {
+    width: 60%;
+    float: left;
+    background-color: yellow;
 }
