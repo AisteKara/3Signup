@@ -7,9 +7,20 @@ body * {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body {
-    background-color: #9fcbe0;
+    background-color: #5140b1;
     position: relative;
     height: 100vh; /*darbinio ploto aukštis - vh*/
+}
+.background {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-color: #015CDA;
+    background-image: url(../img/hill.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(20px);
 }
 .container {
     display: inline-block;
